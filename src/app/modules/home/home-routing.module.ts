@@ -5,7 +5,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 const routes: Routes = [
   {
     path: '' ,//TODO: localhost:4200/home/dashboard
-    component: HomePageComponent
+    component:HomePageComponent 
        
   }
   
