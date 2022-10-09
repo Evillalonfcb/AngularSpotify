@@ -1,7 +1,15 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { TracksModule } from './tracks.module';
+import { TracksPageComponent } from './pages/tracks-page/tracks-page.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: '',
+    component: TracksPageComponent,
+    outlet: 'child'
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tacks-page',
-  templateUrl: './tacks-page.component.html',
-  styleUrls: ['./tacks-page.component.css']
+  templateUrl: './tracks-page.component.html',
+  styleUrls: ['./tracks-page.component.css']
 })
-export class TacksPageComponent implements OnInit {
+export class TracksPageComponent implements OnInit {
 
   constructor() { }
 
